@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 li.active {
-    background: yellow
+    background: rgb(214, 185, 171);
+    border: 1px solid rgb(122, 104, 104);
+    color: white;
+}
+
+li a {
+    display: block;
+    padding: 8px 16px;
 }
 
 a:hover {
@@ -9,6 +18,8 @@ a:hover {
 a {
     color: inherit;
     text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px; 
 }
 
 ul {
@@ -19,9 +30,10 @@ ul {
     display: flex;
     flex-direction:row;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
-.nav-item:focus {
-    border-bottom: 5px solid #0f0;
+a:focus {
+    border-bottom: 5px solid rgb(168, 83, 83);
     outline: none;
 }
